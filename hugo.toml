@@ -1,19 +1,4 @@
-baseURL = "https://harshul-ds.github.io/my-portfolio/"
-languageCode = "en-us"
-title = "My Portfolio" 
-theme = "ananke"
-
-# GitHub Pages settings
-publishDir = "docs"
-canonifyURLs = true
-
-# Content settings
-enableRobotsTXT = true
-buildDrafts = false
-buildFuture = false
-buildExpired = false
-
-[params]
-  featured_image = "/images/IMG_2829.JPG"
-  mainSections = ["posts"]
-  description = "Data Scientist | Azure Certified | NLP, Data Integration | Global Leader"
+baseURL = 'https://harshul-ds.github.io/my-portfolio/'
+languageCode = 'en-us'
+title = 'My Portfolio'
+theme = 'PaperMod'  # Change this line to use PaperMod
