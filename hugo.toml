@@ -2,3 +2,17 @@ baseURL = "https://harshul-ds.github.io/my-portfolio/"
 languageCode = "en-us"
 title = "My Portfolio" 
 theme = "ananke"
+
+# Add these important settings
+publishDir = "public"
+canonifyURLs = true
+
+# Recommended additional settings for GitHub Pages
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[params]
+  featured_image = "/images/IMG_2829.JPG"
+  mainSections = ["posts"]
