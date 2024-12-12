@@ -3,11 +3,11 @@ languageCode = "en-us"
 title = "My Portfolio" 
 theme = "ananke"
 
-# Add these important settings
-publishDir = "public"
+# GitHub Pages settings
+publishDir = "docs"
 canonifyURLs = true
 
-# Recommended additional settings for GitHub Pages
+# Content settings
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
@@ -16,3 +16,4 @@ buildExpired = false
 [params]
   featured_image = "/images/IMG_2829.JPG"
   mainSections = ["posts"]
+  description = "Data Scientist | Azure Certified | NLP, Data Integration | Global Leader"
