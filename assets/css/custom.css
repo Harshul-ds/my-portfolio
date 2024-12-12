@@ -1,0 +1,238 @@
+/* Global styles and variables */
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --text-color: #333;
+    --light-bg: #f8f9fa;
+    --spacing-unit: 2rem;
+    --container-width: 1200px;
+}
+
+/* Base styles */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-bg);
+}
+
+/* Container */
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 var(--spacing-unit);
+}
+
+/* Hero Section */
+.hero-section {
+    padding: calc(var(--spacing-unit) * 2) 0;
+    background-color: white;
+    border-radius: 8px;
+    margin: var(--spacing-unit) 0;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-unit);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-unit);
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
+.hero-image {
+    margin: var(--spacing-unit) auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Profile Section */
+.profile-section {
+    background-color: white;
+    padding: var(--spacing-unit);
+    border-radius: 8px;
+    margin: var(--spacing-unit) 0;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    margin-bottom: var(--spacing-unit);
+}
+
+.about-me {
+    margin: var(--spacing-unit) 0;
+}
+
+.about-me h3 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Social Links */
+.social-links {
+    margin: var(--spacing-unit) 0;
+}
+
+.social-links a {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #2980b9;
+}
+
+/* Contact Information */
+.contact-info {
+    margin-top: var(--spacing-unit);
+}
+
+.contact-info h3 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    :root {
+        --spacing-unit: 1.5rem;
+    }
+
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .profile-section h2 {
+        font-size: 1.75rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --spacing-unit: 1rem;
+    }
+
+    .hero-section h1 {
+        font-size: 1.75rem;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero-section, .profile-section {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+.content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.hero-section {
+    margin-bottom: 4rem;
+}
+
+.profile-section {
+    margin-bottom: 3rem;
+}
+
+.about-me {
+    margin: 2rem 0;
+}
+
+.contact-info {
+    background: #f5f5f5;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+.social-links a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #0077b5;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 1rem 0;
+}
+
+.social-links a:hover {
+    background: #005582;
+} 
