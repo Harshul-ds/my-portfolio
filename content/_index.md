@@ -1,12 +1,10 @@
 ---
 title: "Exploring the Digital Wonders of Our World"
-date: 2024-10-11
+description: "Data Scientist | Azure Certified | NLP, Data Integration | Global Leader"
+featured_image: "/images/IMG_2829.JPG"
+date: 2024-03-11
 draft: false
 ---
-
-<div class="content-wrapper">
-
-<div class="hero-section">
 
 # Unraveling the Universe, One Dataset at a Time
 
@@ -14,35 +12,10 @@ In the vast expanse of data that surrounds us, I see fragments of the universe's
 
 Join me on this journey as I explore the intersection of technology and discovery, where each algorithm brings us one step closer to understanding the fundamental truths that shape our reality.
 
-![Background Image](images/IMG_2829.JPG)
+## About Me
 
-</div>
-
-<div class="profile-section">
-
-## Harshul Tandan
-*Data Scientist | Azure Certified | NLP, Data Integration | Global Leader*
-
-<div class="about-me">
-
-### About Me
 I transform raw information into actionable insights across finance, healthcare, and identity verification. My journey is fueled by an insatiable curiosity and a passion for turning complex challenges into elegant solutions.
-
-</div>
-
-<div class="social-links">
-
-[Connect on LinkedIn](https://www.linkedin.com/in/harshul-tandan/)
-
-</div>
-
-<div class="contact-info">
 
 ### Contact Information
 - **Location:** Phoenix, Arizona, United States
-
-</div>
-
-</div>
-
-</div>
+- [Connect on LinkedIn](https://www.linkedin.com/in/harshul-tandan/)
