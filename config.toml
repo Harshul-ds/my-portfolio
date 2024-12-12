@@ -1,0 +1,4 @@
+baseURL = "https://harshul-ds.github.io/my-portfolio/"
+languageCode = "en-us"
+title = "My Portfolio" 
+theme = "ananke"
